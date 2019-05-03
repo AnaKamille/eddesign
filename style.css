@@ -1,0 +1,77 @@
+body {
+    background-color: #000000;
+}
+
+h1 {
+    color: #f9fcff;
+
+}
+
+.ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+.banner {
+    background-image: url(img/background.png);
+    display: flex;
+    height: 1210%;
+    width: 1010px;
+}
+
+.innerbanner {
+    display: flexbox;
+    align-items: center;
+}
+
+
+ul {
+    color: #f9fcff;
+   
+}
+
+
+.final {
+    color: #f9fcff;
+}
+
+.devs {
+    height: 40%;
+    width: 100px;
+   display: flex;
+   justify-content: center;
+}
+.intro {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.final {
+    display: flex;
+    justify-content: space-around;
+}
+
+.icone {
+    height: 95%;
+    width: 115px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+ 
+.icone.facebook {
+    height: 25%;
+    width: 40px;
+}
+.li {
+    display: flex;
+    flex-direction: column;
+}
+
+.bannertext {
+  display: flex;
+  align-items: center;
+}

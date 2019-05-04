@@ -31,6 +31,7 @@ body {
 .logo-text {
     color: #f9fcff;
     font-family: "COMFORTAA";
+    font-size: 200%;
 }
 
 .menu-container {
@@ -84,9 +85,10 @@ body {
 }
 
 .banner-text { 
-    font-family: "COMFORTAA";
+    font-family: "ORATORSTD";
     color: #f9fcff;
     text-align: center;
+    
 }
 
 
@@ -115,8 +117,9 @@ body {
 }
 
 .icone {
-    width: 20px;
-    height: 25px;;
+    width: 25px;
+    height: 30px;
+    
 }
  
 .icone.facebook {
@@ -136,4 +139,12 @@ body {
 @font-face {
     font-family: COMFORTAA;
     src: url('fontes/COMFORTAA.BOLD.TTF');
+    
 }
+
+@font-face {
+    font-family:ORATORSTD;
+    src: url('fontes/ORATORSTD-SLANTED.OTF');
+}
+
+

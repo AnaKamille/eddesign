@@ -1,41 +1,96 @@
 body {
     background-color: #000000;
-}
-
-h1 {
-    color: #f9fcff;
+    margin: 0;
+    
 
 }
 
-.ul {
+.header {
     display: flex;
-    justify-content: flex-end;
+    flex-direction: row;
+    background-color: #000000;
+    justify-content: space-between;
+
+}
+.logo-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+   
+
+}
+
+
+.logo{
+    width: 100px;
+    padding: 10px;
+}
+
+
+.logo-text {
+    color: #f9fcff;
+    font-family: "COMFORTAA";
+}
+
+.menu-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+  
+   
+}
+
+.menu-item { 
+    color: #f9fcff;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding-left: 10px;
+    padding-right: 10px;
+   font-family: "COMFORTAA";
+}
+
+.menu-item:hover{ 
+   background-color:  #33cccc;
 }
 
 
 
 .banner {
     background-image: url(img/background.png);
+    width: 100%;
+    height: 500px;
     display: flex;
-    height: 1210%;
-    width: 1010px;
-}
-
-.innerbanner {
-    display: flexbox;
+    justify-content: center;
     align-items: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    
 }
 
+.inner-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 600px;
+    height: 200px;
+    border-color: #f9fcff;
+    border-style:solid;
+    border-width:thin;
+}
 
-ul {
+.banner-text { 
+    font-family: "COMFORTAA";
     color: #f9fcff;
-   
+    text-align: center;
 }
 
 
-.final {
-    color: #f9fcff;
-}
+
 
 .devs {
     height: 40%;
@@ -43,35 +98,42 @@ ul {
    display: flex;
    justify-content: center;
 }
-.intro {
-    display: flex;
-    flex-direction: row;
-
-}
-
 .final {
     display: flex;
     justify-content: space-around;
+    align-items:center; 
+    color: #f9fcff;
+    background-color: #000000;
 }
 
-.icone {
+.icones-final  {
     height: 95%;
     width: 115px;
     display: flex;
     justify-content: space-between;
     
 }
+
+.icone {
+    width: 20px;
+    height: 25px;;
+}
  
 .icone.facebook {
     height: 25%;
     width: 40px;
 }
-.li {
-    display: flex;
-    flex-direction: column;
+
+.menu-final-item {
+    font-family: "COMFORTAA"
 }
 
 .bannertext {
   display: flex;
   align-items: center;
+}
+
+@font-face {
+    font-family: COMFORTAA;
+    src: url('fontes/COMFORTAA.BOLD.TTF');
 }
